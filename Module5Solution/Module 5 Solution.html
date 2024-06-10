@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Restaurant</h1>
+  </header>
+  <div id="main-content">
+    <div class="content-wrapper">
+      <div class="menu-list">
+        <div class="menu-item" id="menu-link" onclick="loadContent('Menu')">Menu</div>
+        <div class="menu-item" id="specials-link" onclick="loadContent('Specials')">Specials</div>
+        <div class="menu-item" id="map-link" onclick="loadContent('Map')">Map</div>
+      </div>
+      <div class="content-display" id="content-display">
+        <!-- Content will be displayed here -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
